@@ -145,6 +145,6 @@ io.on("connection", async (socket) => {
     })
 })
 
-server.listen(PORT, '0.0.0.0', () => {
+server.listen(PORT, () => {
     console.log(`Example app listening on port ${PORT}`)
 })
